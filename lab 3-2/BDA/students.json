@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "lucky",
+      "branch": "CSE",
+      "marks": 80
+    },
+    {
+      "id": 2,
+      "name": "amith",
+      "branch": "CSE",
+      "marks": 90
+    },
+    {
+      "id": 3,
+      "name": "raju",
+      "branch": "ECE",
+      "marks": 70
+    }
+  ]
+}
