@@ -4,9 +4,11 @@ import numpy as np
 from PIL import Image
 import io
 import base64
+from keras.models import load_model
+
 
 app = Flask(__name__)
-model = tf.keras.models.load_model("mlp_mnist_model.h5")
+model = load_model("mlp_mnist_model.h5", compile=False, safe_mode=False)
 
 @app.route('/')
 def home():
