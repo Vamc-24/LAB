@@ -1,6 +1,6 @@
 // Student details
 let name = "Vamsi";
-let rollNo = "23A91A05";
+let rollNo = "23AK1A3094";
 let course = "CSE-AI&DS";
 
 // Display dashboard info
